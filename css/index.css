@@ -218,7 +218,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal-2 {
 .menuCaption {
   padding-top: 20px; }
 
-.menuItem1:hover {
+.menuItem:hover {
   background-color: #ffffff99;
   border: 2px solid #ffffff; }
 
