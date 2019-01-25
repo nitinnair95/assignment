@@ -1,0 +1,466 @@
+/* ------------Mobile Phone --------------*/
+@media screen
+  and (min-device-width: 320px)
+  and (max-device-width: 795px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #mainSection
+    {
+      height: 100vh;
+      position: relative;
+    }
+    .container-element
+    {
+      padding: 328px 0px 29px 0px;
+    }
+    .heading
+    {
+      width: 290px;
+    }
+    .mainHeading
+    {
+      font-size: 51px;
+      line-height: 43px;
+    }
+    .sub-heading
+    {
+      width: 265px;
+      font-size: 16px;
+    }
+}
+@media screen
+  and (min-device-width: 375px)
+  and (max-device-width: 795px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #mainSection
+    {
+      height: 100vh;
+      position: relative;
+    }
+    .container-element
+    {
+      padding: 300px 0px 29px 0px;
+    }
+    .heading
+    {
+      width: 347px;
+    }
+    .mainHeading
+    {
+      font-size: 60px;
+      line-height: 50px;
+    }
+    .sub-heading
+    {
+      width: 340px;
+      font-size: 16px;
+    }
+    .contactHeading
+    {
+      width: 320px;
+      margin-left: 0;
+    }
+    .contactsubHeading
+    {
+      width: 320px;
+      margin: -7px 0px 0px 0px;
+    }
+    .social
+    {
+      padding: 100px 0px 5px 15px;
+      width: 320px;
+      margin-left: 0;
+      font-weight: 700;
+    }
+    .social li a
+    {
+      width: 50px;
+      height: 50px;
+      font-size: 25px;
+      padding-top: 5px;
+    }
+    .footerArea
+    {
+      line-height: 15px;
+    }
+  }
+
+@media screen
+  and (min-device-width: 425px)
+  and (max-device-width: 795px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .toggler
+    {
+      display: block;
+    }
+    #mainSection
+    {
+      height: 100vh;
+      position: relative;
+    }
+    .container-element
+    {
+      height: inherit;
+      padding: 350px 0px 560px 0px;
+    }
+    .heading
+    {
+      width: 377px;
+    }
+    .mainHeading
+    {
+      font-size: 67px;
+      line-height: 55px;
+    }
+    .sub-heading
+    {
+      width: 395px;
+    }
+    .block
+    {
+      padding: 5em 0;
+    }
+    .items
+    {
+      width: 341px;
+    }
+    .item1
+    {
+      width: 156px;
+      height: 110px;
+    }
+    .item2
+    {
+      width: 90px;
+      height: 110px;
+    }
+    .item3
+    {
+      width: 90px;
+      height: 110px;
+    }
+    .menuItems
+    {
+      margin-right: 0;
+    }
+    .menuItem
+    {
+      padding-top: 24px
+    }
+    .textArea
+    {
+      padding-top: 20px;
+      width: 372px;
+    }
+    #sidebarMenu
+    {
+      height: 55%;
+    }
+    .contactHeading
+    {
+      width: 352px;
+      margin-left: 20px;
+    }
+    .contactsubHeading
+    {
+      width: 352px;
+      margin: -7px 0px 0px 20px;
+    }
+    .social
+    {
+      padding: 100px 0px 5px 0px;
+      margin-left: 40px;
+    }
+    .social li
+    {
+      margin-right: 8px;
+    }
+    .social li a
+    {
+      width: 60px;
+      height: 60px;
+      font-size: 30px;
+      padding-top: 10px;
+    }
+    .footerArea
+    {
+      line-height: 15px;
+    }
+}
+
+/* ----------- Tablet --------------------*/
+
+  @media screen
+    and (min-device-width: 768px)
+    and (max-device-width: 795px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+      .toggler{
+        display: block;
+      }
+      #mainSection
+      {
+        height: 100vh;
+        position: relative;
+      }
+      .container-element
+      {
+            padding: 290px 0px 0px 0px;
+      }
+      .heading
+      {
+        width: 100%;
+      }
+      .mainHeading
+      {
+        text-align: center;
+        line-height: 60px;
+      }
+      .sub-heading
+      {
+        padding: 40px 0px 0px 22px;
+        width: 100%;
+        text-align: center;
+      }
+      .navbar-header
+      {
+        width: 100%;
+      }
+      .navbar-toggler
+      {
+        float: right;
+      }
+      .navbar-nav
+      {
+        flex-direction: column                                      !important;
+        float: right;
+      }
+      .fas
+      {
+        font-size: 40px;
+        color: white;
+      }
+      .contactHeading
+      {
+        margin-left: 90px;
+        width: 510px;
+      }
+      .contactsubHeading
+      {
+        margin: -7px 0px 0px 90px;
+        width: 510px;
+      }
+      .mainText p
+      {
+        font-size: 37px;
+      }
+      .social
+      {
+        margin-left: 190px;
+      }
+  }
+
+/* ----------- Laptops ----------- */
+
+@media screen
+  and (min-device-width: 790px)
+  and (max-device-width: 2560px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .toggler
+    {
+      display: none;
+    }
+    .navbar-nav
+    {
+      margin-left: 764px                                            !important;
+    }
+    .nav-item
+    {
+      width: 214px;
+    }
+    .caption
+    {
+      font-size: 25px;
+    }
+    svg
+    {
+      width: 150px;
+      height: 80px;
+    }
+    .profile
+    {
+      width: 118px;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      -ms-border-radius: 60px;
+    }
+    .container-element
+    {
+      padding: 245px 570px 29px 0px;
+    }
+    .heading
+    {
+      width: 936px;
+    }
+    .mainHeading
+    {
+      font-size: 156px;
+      line-height: 120px;
+    }
+    .sub-heading
+    {
+      width: 879px;
+      padding: 40px 0px 0px 0px;
+      font-size: 28px;
+    }
+  }
+
+  @media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+      .container-element
+      {
+        padding: 356px 0px 0px 190px;
+      }
+      .toggler
+      {
+        display: none;
+      }
+  }
+
+  @media screen
+    and (min-device-width: 795px)
+    and (max-device-width: 1440px)
+    and (-webkit-min-device-pixel-ratio: 1){
+      .container-element
+      {
+        padding: 300px 0px 42px 235px;
+      }
+      .toggler
+      {
+        display: none;
+      }
+      .navbar-nav
+      {
+        margin-left:auto                                            !important;
+      }
+      .nav-item
+      {
+        width: 136px;
+      }
+      .caption
+      {
+        font-size: 12px;
+      }
+      svg
+      {
+        width: 80px;
+        height: 40px;
+      }
+      .profile
+      {
+        width: 70px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+      }
+      .heading
+      {
+        width: 455px;
+      }
+      .mainHeading
+      {
+        font-size: 80px;
+        line-height: 65px;
+      }
+      .sub-heading
+      {
+        width: 407px;
+        padding: 40px 0px 0px 0px;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+
+  @media screen
+    and (min-device-width: 795px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+      .container-element
+      {
+        padding: 356px 0px 0px 100px;
+      }
+      .toggler
+      {
+        display: none;
+      }
+      .navbar-nav
+      {
+        margin-left:auto                                            !important;
+      }
+      .nav-item
+      {
+        width: 136px;
+      }
+      .caption
+      {
+        font-size: 14px;
+      }
+      svg
+      {
+        width: 80px;
+        height: 40px;
+      }
+      .profile
+      {
+        width: 70px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        -ms-border-radius: 60px;
+      }
+      .container-element
+      {
+        padding: 370px 0px 42px 96px;
+      }
+      .heading
+      {
+        width: 455px;
+      }
+      .mainHeading
+      {
+        font-size: 80px;
+        line-height: 65px;
+      }
+      .sub-heading
+      {
+        width: 407px;
+        padding: 40px 0px 0px 0px;
+        font-size: 17px;
+      }
+      .contactHeading
+      {
+        margin-left: 220px;
+      }
+      .contactsubHeading
+      {
+        margin: -7px 0px 0px 220px;
+      }
+      .social
+      {
+        margin-left: 245px;
+      }
+  }
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    .container-element
+    {
+      padding: 356px 0px 0px 190px;
+    }
+    .toggler
+    {
+      display: none;
+    }
+}

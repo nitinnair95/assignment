@@ -1,0 +1,317 @@
+#mainSection {
+  height: 100vh;
+  background-image: url(../img/travel4.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1; }
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: 11px !important;
+  margin-right: 20px; }
+
+.caption {
+  color: #ffffff;
+  margin-top: 5px; }
+
+.customSVG {
+  transform: rotate(-50deg); }
+
+.profile {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  width: 60px;
+  border-style: solid;
+  transform: rotate(20deg); }
+
+.container-element {
+  height: 100vh;
+  padding: 260px 0px 29px 190px; }
+
+.heading {
+  width: 504px; }
+
+.mainHeading {
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 68px; }
+
+.sub-heading {
+  width: 478px;
+  padding: 40px 0px 0px 0px;
+  font-size: 20px; }
+  .sub-heading p {
+    color: #ffffff; }
+
+.is-active {
+  font-weight: 700 !important;
+  transform: scale(1.1); }
+
+.nav-item:hover {
+  color: black;
+  transform: scale(1.1);
+  cursor: pointer; }
+
+.header {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: none;
+  background-color: #842d0ea6;
+  position: fixed;
+  height: 60px !important;
+  overflow: hidden;
+  z-index: 10; }
+
+#sidebarMenu {
+  height: 100%;
+  position: fixed;
+  left: 0;
+  width: 176px;
+  margin-top: 60px;
+  transform: translateX(-250px);
+  transition: transform 250ms ease-in-out;
+  background: linear-gradient(180deg, #842d0ea6 0%, #000000 100%); }
+
+.menuInner {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  .menuInner li {
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer; }
+    .menuInner li a {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none; }
+
+input[type="checkbox"]:checked ~ #sidebarMenu {
+  transform: translateX(0); }
+input[type=checkbox] {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: none; }
+
+.sidebarIconToggle {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 22px;
+  left: 15px;
+  height: 22px;
+  width: 22px; }
+
+.spinner {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #fff; }
+
+.horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px; }
+
+.diagonal-1 {
+  position: relative;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  float: left; }
+
+.diagonal-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px; }
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  opacity: 0; }
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal-1 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 8px; }
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -9px; }
+
+#menuSection {
+  display: grid;
+  background: url(../img/fish.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 132vh;
+  position: relative; }
+
+.imageArea {
+  z-index: 1;
+  height: 60vh; }
+
+.block {
+  padding: 6em 0; }
+
+.items {
+  list-style: none;
+  display: flex;
+  width: 670px; }
+
+.item1 {
+  width: 310px;
+  height: 205px; }
+
+.item2 {
+  width: 165px;
+  height: 205px;
+  margin-left: 15px; }
+
+.item3 {
+  width: 165px;
+  height: 205px;
+  margin-left: 15px; }
+
+.menuContainer {
+  position: relative;
+  text-align: center; }
+
+.menuItems {
+  display: inline-block;
+  flex-wrap: nowrap; }
+
+.menuImg {
+  margin-left: 5px; }
+
+.menuItem {
+  display: inline-block;
+  width: 110px;
+  height: 125px;
+  color: #000;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 10px;
+  padding-top: 24px; }
+
+.menuCaption {
+  padding-top: 20px; }
+
+.menuItem1:hover {
+  background-color: #ffffff99;
+  border: 2px solid #ffffff; }
+
+.textArea {
+  padding-top: 10px; }
+
+.mainText {
+  color: green; }
+  .mainText p {
+    text-transform: uppercase;
+    color: green;
+    text-align: right;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+    margin-top: -20px; }
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.8;
+  position: absolute; }
+
+#contactSection {
+  background: url(../img/section3.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: grid;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  padding: 70px 0px; }
+
+.customContainer {
+  padding: 9em 0; }
+
+.contactHeading {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  width: 512px;
+  margin-left: 270px;
+  font-weight: 700;
+  padding: 4px 0px 5px 15px; }
+
+.contactsubHeading {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  width: 512px;
+  margin: -7px 0px 0px 270px;
+  font-weight: 200;
+  padding: 4px 0px 5px 15px;
+  text-align: center;
+  font-size: 16px; }
+
+.social {
+  padding: 100px 0px 5px 15px;
+  width: 532px;
+  margin-left: 295px;
+  font-weight: 700; }
+  .social li {
+    margin-right: 15px; }
+    .social li a {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      font-size: 45px;
+      border: 2px solid #fff;
+      color: #000;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 36px;
+      margin-left: 10px;
+      padding-top: 15px;
+      background-color: white; }
+
+.social .socialIcons a:hover {
+  background-color: #f54803;
+  color: #ffffff;
+  border: none; }
+
+.footerArea {
+  padding: 3em 0;
+  background-color: #942506;
+  text-align: center;
+  text-transform: uppercase;
+  height: 43vh;
+  line-height: 6px; }
+  .footerArea p {
+    color: #ffffff; }
+
+/*# sourceMappingURL=index.css.map */
